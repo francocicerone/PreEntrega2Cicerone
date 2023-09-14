@@ -388,12 +388,43 @@ footer img {
     box-shadow: 0 0 5px white;
 }
 
+.bt-hamb {
+    display: none;
+}
 /* MEDIAQUERIES */
 
 @media screen and (max-width: 660px) {
 body {
     grid-template-columns: 1fr;
     grid-template-rows: repeat(5, 200px);
+}
+
+nav {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.hamburguesa {
+    display: block;
+}
+
+.li-1{
+    display: none;    
+}
+
+.li-2{
+    display: none;    
+}
+
+.li-3{
+    display: none;
+}
+
+.li-4{
+    display: none;
 }
 
 .main-index {
@@ -404,20 +435,6 @@ body {
 .section-index{
     display: flex;
     flex-flow: column wrap;
-}
-
-nav {
-    display: flex;
-    flex-flow: row wrap;
-    padding: 25px;
-}
-
-.hamburguesa {
-    display: block;
-}
-
-nav ul {
-    display: none;
 }
 
 footer {
@@ -440,28 +457,37 @@ footer {
         grid-template-columns: 1fr
     }
 
-    .section-index{
-        grid-column: ;
-    }
-    
     .aside-index{
             display: flex;
             flex-flow: column wrap;
         }
 
-    nav {
-        display: flex;
-        flex-flow: row wrap;
-        padding: 25px;
-    }
-    
-    .hamburguesa {
-        display: block;
-    }
-    
-    nav ul {
-        display: none;
-    }
+        nav {
+            display: flex;
+            flex-flow: row wrap;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+        }
+        
+        .hamburguesa {
+            display: block;
+        }
+        
+        .li-1{
+            display: none;    
+        }
+        
+        .li-2{
+            display: none;    
+        }
+        
+        .li-3{
+            display: none;
+        }
+        
+        .li-4{
+            display: none;
     
     footer {
         display: flex;
@@ -474,7 +500,7 @@ footer {
     }
 
   
-
+}
 /* Contacto */
 .mainContacto {
     display: flex;
